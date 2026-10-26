@@ -1,0 +1,77 @@
+body{
+    background-color: #E3CCA1
+}
+
+#container{
+    width:750px;
+    margin-right:auto;
+    margin-left:auto;
+    padding:20px;
+    background-color: #FFFFFF;
+    border-right:solid 2px #52331C;
+    border-left: solid 2px #52331C;
+}
+
+h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 76px;
+    color: #4D331E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px;
+}
+
+h3{
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px;
+    color:#4D331E;
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+    color: #4D331E;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/*MENU SECTION*/
+#menu ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu li{
+    background-color: #E8CCF9;
+    border: 1px solid #4D331E;
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding:4px;
+}
+
+/*LINK STYLES*/
+#menu a:link, a:visited{
+    color:#060;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu a:hover, a:active{
+    color: #900;
+    text-decoration: underline;
+}
+
+/*CLASS STYLES*/
+.rightfloat{
+    border:2px solid #060;
+    margin: 8px;
+    float:right;
+}
